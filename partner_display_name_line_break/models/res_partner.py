@@ -25,6 +25,7 @@ class ResPartner(models.Model):
         "show_vat",
         "lang",
         "_two_lines_partner_address",
+        "_keep_partner_address_type",
     )
     def _compute_display_name(self):  # pylint: disable=W8110
         super()._compute_display_name()
