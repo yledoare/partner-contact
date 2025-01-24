@@ -26,7 +26,7 @@
                         <widget
                         name="web_ribbon"
                         title="Archived"
-			            bg_color="bg-danger"
+                        bg_color="bg-danger"
                         invisible="active == True"
                     />
                         <field name="active" invisible="1" />
