@@ -26,8 +26,8 @@
                         <widget
                         name="web_ribbon"
                         title="Archived"
-                        bg_color="bg-danger"
-                        attrs="{'invisible': [('active', '=', True)]}"
+			            bg_color="bg-danger"
+                        invisible="active == True"
                     />
                         <field name="active" invisible="1" />
                         <field name="image" widget='image' class="oe_avatar" />
